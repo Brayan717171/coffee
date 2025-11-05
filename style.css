@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #FFF8E8;
+    --secundary-color: #DABB9E;
+    --tertiary-color: #F8E4BE;
+}
+
+body {
+    background-image: url(./img/Home\ Page.png);
+    background-size: cover;
+
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    gap: 70px;
+
+
+}
+
+.icone {
+    margin-top: 25px;
+    margin-left: 560px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+
+}
+
+
+
+.home {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    color: var(--primary-color);
+    font-size: 20px;
+
+
+
+}
+
+.home img {
+    position: fixed;
+    z-index: -1;
+}
+
+.home span {
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+main{
+    padding: 80px;
+}
+p{
+    color: var(--secundary-color);
+    font-size:24px;
+    padding: 20px;
+    letter-spacing:4px ;
+    line-height: 1.5;
+    margin-top: -160px;
+}
+.bottom1{
+    font-size:24px;
+    color: var(--tertiary-color);
+    
+}
+.bottom1 p1{ 
+    border-radius: 50px;
+    background-color: #F8E4BE;
+    background-image: 
+    linear-gradient(#53341eb0) ;
+    margin: 70px;
+}
+.bottom1 a{
+
+}
+
+.card{
+    margin-top: 70px;
+    
+   
+
+}
+
+
+
